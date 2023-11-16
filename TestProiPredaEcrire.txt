@@ -1,0 +1,44 @@
+<proies>
+x = 5, y = 14, dir = [1 1], energie = 10.000000
+x = 11, y = 49, dir = [0 -1], energie = 10.000000
+x = 7, y = 10, dir = [1 -1], energie = 10.000000
+x = 1, y = 10, dir = [-1 0], energie = 10.000000
+x = 11, y = 1, dir = [0 1], energie = 10.000000
+x = 3, y = 14, dir = [-1 1], energie = 10.000000
+x = 9, y = 40, dir = [1 1], energie = 10.000000
+x = 6, y = 34, dir = [0 0], energie = 10.000000
+x = 18, y = 25, dir = [-1 1], energie = 10.000000
+x = 7, y = 24, dir = [0 0], energie = 10.000000
+x = 9, y = 28, dir = [1 -1], energie = 10.000000
+x = 11, y = 9, dir = [1 0], energie = 10.000000
+x = 6, y = 9, dir = [0 0], energie = 10.000000
+x = 15, y = 49, dir = [0 0], energie = 10.000000
+x = 6, y = 40, dir = [0 0], energie = 10.000000
+x = 7, y = 23, dir = [-1 -1], energie = 10.000000
+x = 11, y = 0, dir = [1 -1], energie = 10.000000
+x = 18, y = 6, dir = [-1 1], energie = 10.000000
+x = 12, y = 20, dir = [1 1], energie = 10.000000
+x = 15, y = 43, dir = [1 0], energie = 10.000000
+</proies>
+<predateur>
+x = 7, y = 1, dir = [-1 -1], energie = 10.000000
+x = 9, y = 37, dir = [0 0], energie = 10.000000
+x = 6, y = 32, dir = [-1 1], energie = 10.000000
+x = 7, y = 9, dir = [0 -1], energie = 10.000000
+x = 17, y = 19, dir = [1 -1], energie = 10.000000
+x = 13, y = 30, dir = [1 1], energie = 10.000000
+x = 8, y = 3, dir = [-1 1], energie = 10.000000
+x = 3, y = 40, dir = [0 -1], energie = 10.000000
+x = 8, y = 9, dir = [-1 -1], energie = 10.000000
+x = 2, y = 35, dir = [1 -1], energie = 10.000000
+x = 17, y = 7, dir = [0 -1], energie = 10.000000
+x = 1, y = 2, dir = [-1 1], energie = 10.000000
+x = 17, y = 13, dir = [-1 1], energie = 10.000000
+x = 5, y = 46, dir = [1 0], energie = 10.000000
+x = 0, y = 30, dir = [0 0], energie = 10.000000
+x = 6, y = 45, dir = [0 1], energie = 10.000000
+x = 1, y = 37, dir = [-1 1], energie = 10.000000
+x = 9, y = 5, dir = [-1 0], energie = 10.000000
+x = 11, y = 21, dir = [1 0], energie = 10.000000
+x = 2, y = 14, dir = [0 -1], energie = 10.000000
+</predateur>
