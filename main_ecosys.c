@@ -84,7 +84,7 @@ int main(void) {
   /*Rafraichissement dans une boucle*/
   FILE *f = fopen("Evol_Pop.txt","w");
 
-  for (int i = 0; i < 400; i++)
+  for (int i = 0; i < 200; i++)
   {
     compte_nb_proies = compte_animal_it(liste_proie); 
     compte_nb_predas = compte_animal_it(liste_preda); 
@@ -106,6 +106,8 @@ int main(void) {
     afficher_ecosys(liste_proie,liste_preda);
     // clear_screen();
   }
+
+  fclose(f);
 
   /* Gnuplot */
   // FILE * gnuplotPipe = popen("gnuplot -persistent","w");
