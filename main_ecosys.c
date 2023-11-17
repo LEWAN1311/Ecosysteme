@@ -11,7 +11,7 @@
 
 #define NB_PROIES 50
 #define NB_PREDATEURS 50
-#define T_WAIT 40000
+#define T_WAIT 80000
 
 
 /* Parametres globaux de l'ecosysteme (externes dans le ecosys.h)*/

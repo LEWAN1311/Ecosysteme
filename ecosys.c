@@ -182,6 +182,7 @@ void rafraichir_proies(Animal **liste_proie, int monde[SIZE_X][SIZE_Y]) {
   /* Bouger les proies */
   Animal *tmp = *liste_proie;
   bouger_animaux(tmp);
+  Animal *tmp2 = NULL;
 
   /* Parcourir les listes*/
   /* Baisser l'energie*/
@@ -194,11 +195,12 @@ void rafraichir_proies(Animal **liste_proie, int monde[SIZE_X][SIZE_Y]) {
       monde[tmp->x][tmp->y] = temps_repousse_herbe;
     }
     tmp->energie -= 1;
+    tmp2 = tmp->suivant;
     if (tmp->energie<0)
     {
       enlever_animal(liste_proie,tmp);
     }
-    tmp = tmp->suivant;
+    tmp = tmp2;
   }
   
   /* Reproduce */
@@ -227,7 +229,7 @@ void rafraichir_predateurs(Animal **liste_predateur, Animal **liste_proie) {
 
   /*Bouger les prédateurs */
   Animal *pred = *liste_predateur;
-  Animal *proie;
+  Animal *proie, *tmp=NULL;
   bouger_animaux(pred);
 
   /* Parcourir les listes*/
@@ -240,13 +242,13 @@ void rafraichir_predateurs(Animal **liste_predateur, Animal **liste_proie) {
       enlever_animal(liste_proie,proie);
     }
     pred->energie -= 1;
-    
+    tmp = pred->suivant;
     if (pred->energie < 0)
     {
       enlever_animal(liste_predateur,pred);
     }
 
-    pred = pred->suivant;
+    pred = tmp;
   }
   
   /* Reproduce */
